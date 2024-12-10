@@ -9,56 +9,87 @@
 </head>
 
 <body>
-<!-- navbar  -->
-<!-- Navbar -->
-<nav class="flex bg-white justify-between items-center p-3">
-    <a href="#">
-        <img src="/img/c4u full logo.png" alt="" class="object-cover">
-    </a>
-    <!-- Links -->
-    <div class="md:flex gap-10 hidden">
-        <a href="#" class="font-medium hover:text-regular">Home</a>
-        <a href="#" class="font-medium hover:text-regular">About Us</a>
-        <a href="#" class="font-medium hover:text-regular">Upskill</a>
-        <a href="#" class="font-medium hover:text-regular">Contact us </a>
-    </div>
-    <!-- Button -->
-    <button
-        class="bg-regular p-3 rounded-lg  hidden md:block bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white transition hover:scale-105 hover:translate-y-0.5">
-        Register Interest
-    </button>
-
-    <!-- 3 dot icon -->
-    <button class="p-2 md:hidden" onclick="handlemenu()"> <i class="fa-solid fa-bars text-gray-600"></i>
-    </button>
-
-    <div id="nav-dialog" class=" bg-white inset-0 p-3 fixed z-10 md:hidden hidden">
-        <div id="nav-bar" class="flex justify-between">
-            <a href="#">
-                <img src="/img/c4u full logo.png" alt="" class="object-cover">
-            </a>
-
-            <button class="p-2 md:hidden" onclick="handlemenu()"> <i class="fa-solid fa-xmark"></i>
-            </button>
-
+    <!-- navbar  -->
+    <!-- Navbar -->
+    <nav class="flex bg-white justify-between items-center p-3">
+        <a href="#">
+            <img src="/img/c4u full logo.png" alt="" class="object-cover">
+        </a>
+        <!-- Links -->
+        <div class="md:flex gap-10 hidden">
+            <a href="#" class="font-medium hover:text-regular">Home</a>
+            <a href="#" class="font-medium hover:text-regular">About Us</a>
+            <a href="#" class="font-medium hover:text-regular">Upskill</a>
+            <a href="#" class="font-medium hover:text-regular">Contact us </a>
         </div>
-
-        <!-- Toggel Menu Links -->
-        <div class="mt-3">
-            <a href="#" class="font-medium m-3 p-3 hover:text-regular hover:bg-gray-50 block rounded-lg">Home</a>
-            <a href="#" class="font-medium m-3 p-3 hover:text-regular hover:bg-gray-50 block rounded-lg">About Us</a>
-            <a href="#" class="font-medium m-3 p-3 hover:text-regular hover:bg-gray-50 block rounded-lg">Upskill</a>
-            <a href="#" class="font-medium m-3 p-3 hover:text-regular hover:bg-gray-50 block rounded-lg">Contact us </a>
-        </div>
-        <hr class="border-gray-300">
-
+        <!-- Button -->
         <button
-            class="flex gap-2 items-center px-6 mt-1 font-medium hover:text-regular hover:bg-gray-50 w-full py-5 rounded-lg">
+            class="bg-regular p-3 rounded-lg  hidden md:block bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white transition hover:scale-105 hover:translate-y-0.5">
             Register Interest
-            <i class="fa-solid fa-arrow-right-to-bracket"></i>
         </button>
-    </div>
-</nav>
+
+        <!-- 3 dot icon -->
+        <button class="p-2 md:hidden" onclick="handlemenu()"> <i class="fa-solid fa-bars text-gray-600"></i>
+        </button>
+
+        <div id="nav-dialog" class=" bg-white inset-0 p-3 fixed z-10 md:hidden hidden">
+            <div id="nav-bar" class="flex justify-between">
+                <a href="#">
+                    <img src="/img/c4u full logo.png" alt="" class="object-cover">
+                </a>
+
+                <button class="p-2 md:hidden" onclick="handlemenu()"> <i class="fa-solid fa-xmark"></i>
+                </button>
+
+            </div>
+
+            <!-- Toggel Menu Links -->
+            <div class="mt-3">
+                <a href="#" class="font-medium m-3 p-3 hover:text-regular hover:bg-gray-50 block rounded-lg">Home</a>
+                <a href="#" class="font-medium m-3 p-3 hover:text-regular hover:bg-gray-50 block rounded-lg">About
+                    Us</a>
+                <a href="#" class="font-medium m-3 p-3 hover:text-regular hover:bg-gray-50 block rounded-lg">Upskill</a>
+                <a href="#" class="font-medium m-3 p-3 hover:text-regular hover:bg-gray-50 block rounded-lg">Contact us
+                </a>
+            </div>
+            <hr class="border-gray-300">
+
+            <button
+                class="flex gap-2 items-center px-6 mt-1 font-medium hover:text-regular hover:bg-gray-50 w-full py-5 rounded-lg">
+                Register Interest
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </button>
+        </div>
+
+    </nav>
+    <!-- Hero SEction -->
+    
+    <section class="relative bg-cover bg-center bg-no-repeat text-white"
+        style="background-image: url('https://i.pinimg.com/1200x/b4/d4/be/b4d4be849e8a73edfea68e66442e3baf.jpg');height: 90vh;">
+    
+        <!-- Content -->
+        <div class="relative flex flex-col items-center justify-center min-h-screen px-6 text-center">
+            <p class="text-sm md:text-lg uppercase tracking-wider text-gray-300">Discover - Interact - Engage</p>
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight">
+                Connecting <span class="text-red-500 underline">talent</span> to<br>
+                opportunity through <span class="text-red-500 underline">skills</span>
+            </h1>
+            <p class="mt-4 text-base md:text-lg text-gray-300 max-w-2xl mx-auto">
+                We foster a skill-focused environment enabling students to navigate their careers with a self-paced learning
+                journey and helping businesses gain market-ready talent.
+            </p>
+            <button
+                class="mt-8 mb-72 px-6 py-3 bg-white text-red-500 font-semibold rounded-full shadow-lg hover:bg-red-500 hover:text-white transition duration-300">
+                Ask questions
+            </button>
+        </div>
+    
+        <!-- Wave SVG -->
+        <div class="absolute -bottom-8 w-full overflow-hidden">
+            <img src="/img/Wave.svg" alt="">
+        </div>
+    </section>
+
 </body>
 
 </html>
